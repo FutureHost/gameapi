@@ -8,7 +8,7 @@
 * 
 * @version v2
 * @author Eren5960
-* @link https://github.com/Eren5960/JobForm
+* @link https://github.com/Eren5960
 */                             
 
 namespace xenialdan\gameapi;
