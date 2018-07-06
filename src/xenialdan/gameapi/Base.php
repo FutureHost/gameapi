@@ -16,9 +16,17 @@ namespace xenialdan\gameapi;
 use pocketmine\plugin\PluginBase;
 
 class Base extends PluginBase{
-
+    
+    private static $api;
+    
     public function onEnable():void
     {
-     $this->getLogger()->info("Game-API is now enable!");
+        self::$api = $api;
+        $this->getLogger()->info("Game-API is now enable!");
+    }
+    
+    public static function getAPI():Base
+    {
+        return self::$api
     }
 }
