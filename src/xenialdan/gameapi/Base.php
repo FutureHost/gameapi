@@ -27,6 +27,6 @@ class Base extends PluginBase{
     
     public static function getAPI():Base
     {
-        return self::$api
+        return self::$api;
     }
 }
