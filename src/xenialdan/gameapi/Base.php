@@ -21,7 +21,7 @@ class Base extends PluginBase{
     
     public function onEnable():void
     {
-        self::$api = $api;
+        self::$api = $this;
         $this->getLogger()->info("Game-API is now enable!");
     }
     
